@@ -1,0 +1,20 @@
+@import "externa.css";
+h1
+{
+  color: blue;
+  background-color: yellow;
+  text-align: center;
+}
+p, li
+{
+  color: Red;
+  text-decoration: underline;
+}
+@font-face {
+  font-family: "Bitstream Vera Serif Bold";
+  src: url("http://developer.mozilla.org/@api/deki/files/2934/=VeraSeBd.ttf");
+  font-weight: lighter;
+  font-style: oblique;
+
+
+}

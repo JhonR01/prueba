@@ -1,0 +1,37 @@
+p
+{
+  color: Red;
+}
+div
+{
+  color: blue;
+}
+.first
+{
+  font-weight: bold;
+}
+.done
+{
+  text-decoration: line-through;
+}
+#polite
+{
+  font-family: cursive;
+}
+#rude
+{
+  font-family: monospace;
+  text-transform: uppercase;
+}
+section p {
+color: blue;
+}
+section &gt; p {
+background-color: yellow;
+}
+h2 + p {
+text-transform: uppercase;
+}
+h2 ~ p {
+border: 1px dashed black;
+}
