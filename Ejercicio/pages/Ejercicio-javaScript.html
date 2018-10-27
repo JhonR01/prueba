@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Ejercicio JavaScript</title>
+    <script type="text/javascript">
+      function cambiartexto()
+      {
+        document.getElementById('idMensaje').innerHTML = 'Mi primer JavaScript';
+      }
+    </script>
+  </head>
+  <body>
+    <div class="">
+      <p id="idMensaje">parrafo de prueba</p>
+      <button type="button" onclick= 'document.getElementById("idMensaje").innerHTML="Hola JavaScript!"' name="button">Cambiame 1!</button>
+      <button type="button" onclick= 'cambiartexto()' name="button">Cambiame 2!</button>
+      <button type="button" onclick= 'cambiarStyle()' name="button">Cambiame 3!</button>
+    </div>
+    <div class="">
+
+    <button type="button" onclick='SumarRestar(true)' name="button">Suma</button>
+    <button type="button" onclick='suma_y_resta()' name="button">Incremento y decremento</button>
+    <button type="button" onclick='c()' name="button">Negacion</button>
+    </div>
+    <div class="">
+      <button type="button" onclick='AND()' name="button">AND</button>
+      <button type="button" onclick='OR()' name="button">OR</button>
+    </div>
+    <div class="">
+      <button type="button" onclick='Operadores_Mat(27,28,18,10,5)' name="button">Operadores Matematicos</button>
+      <button type="button" onclick='relacionales(27,28)'name="button">Relacionales</button>
+      <button type="button" onclick='relacionalesCadena("mi perro se llama tony", "mi hermana se llama Stefany Dayan")'name="button">Relacionales Cadenas</button>
+    </div>
+      <script type="text/javascript" src="../scripts/Session7.js"></script>
+  </body>
+</html>
